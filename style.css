@@ -1,0 +1,103 @@
+/*variaveis*/
+:root{
+    --corFundo: yellow;
+    --corLetra: black;
+    --fonteLetra: 'Roboto', sans-serif;
+}
+
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    max-width: 90%;
+    margin-left: 50px;
+}
+
+
+#cep{
+    position: static;
+    right: 50%;
+}
+
+.principal{
+
+    margin-top: 80px;
+    padding: 0;
+    color: yellow;
+}
+
+#titulo{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Rampart One', cursive;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-left: 5px;
+    color: yellow;
+}
+
+
+#botao{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/* inputs */
+
+#rua{
+    border: black;
+    background-color: var(--corFundo);
+    color: var(--corLetra);
+    font-family: var(--fonteLetra);
+}
+
+#bairro{
+    border: black;
+    background-color: var(--corFundo);
+    color: var(--corLetra);
+    font-family: var(--fonteLetra);
+}
+
+#cidade{
+    border: black;
+    background-color: var(--corFundo);
+    color: var(--corLetra);
+    font-family: var(--fonteLetra);
+}
+
+#cep{
+    border: black;
+    background-color: var(--corFundo);
+    color: var(--corLetra);
+    font-family: var(--fonteLetra);
+}
+
+#numerodacasa{
+    border: black;
+    background-color: var(--corFundo);
+    color: var(--corLetra);
+}
+
+
+#estado{
+    border: black;
+    background-color: var(--corFundo);
+    color: var(--corLetra);
+    font-family: var(--fonteLetra);
+}
+
+#email{
+    border: black;
+    background-color: var(--corFundo);
+    color: var(--corLetra);
+    font-family: var(--fonteLetra);
+}
+
+#password{
+    border: black;
+    background-color: var(--corFundo);
+    color: var(--corLetra);
+    font-family: var(--fonteLetra);
+}
